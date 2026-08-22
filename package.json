@@ -1,0 +1,49 @@
+{
+  "name": "astro-dev-content-linter",
+  "version": "0.1.0",
+  "description": "Astro Dev Toolbar app for editorial voice, reading grade level, brand guidelines, and Gemini Nano rewrites",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./app": {
+      "types": "./dist/app.d.ts",
+      "import": "./dist/app.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "bun build src/index.ts src/app.ts --outdir ./dist --target node --external astro && tsc --emitDeclarationOnly --outDir ./dist",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "astro",
+    "astro-integration",
+    "dev-toolbar",
+    "content-linter",
+    "gemini-nano",
+    "chrome-ai",
+    "readability",
+    "copywriting",
+    "tone-of-voice"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "astro": ">=5.0.0 <8.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "astro": "^5.4.0",
+    "typescript": "^5.8.0"
+  }
+}
