@@ -4,8 +4,11 @@
 [![Chrome Built-in AI](https://img.shields.io/badge/Chrome%20AI-Gemini%20Nano-4285F4?style=flat&logo=google&logoColor=white)](https://developer.chrome.com/docs/ai/built-in)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8%2B-blue?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-code.brandonhubbard.com-brightgreen?logo=github)](https://code.brandonhubbard.com/astro-dev-content-linter/)
 
 **Astro Dev Toolbar app for editorial voice, reading grade level, brand guidelines, and on-device Gemini Nano suggestions.**
+
+> 🎮 **Live Interactive Visualizer & Demo:** [astro-dev-content-linter on code.brandonhubbard.com](https://code.brandonhubbard.com/astro-dev-content-linter/)
 
 ---
 
